@@ -1,0 +1,13 @@
+# ignore database directories
+dbdata/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore environment variables
+.env
+
+# ignore SSl conf
+*/options-ssl-nginx.conf
